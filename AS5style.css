@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Gotu&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    
+}
+nav{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0,.5);
+}
+.navbar-brand{
+    font-weight: 800;
+    font-size: 25px;
+    border-radius: 50px;
+
+    
+}
+.navbar-nav a{
+    color: white !important;
+    background-color:violet;
+    border-radius: 50px;
+}
+.navbar-nav a:hover{
+    background-color: whitesmoke;
+    color: black !important;
+    border-radius: 5px;
+}
+section{
+    background-image:url(https://files.123freevectors.com/wp-content/original/119530-pink-abstract-background-design.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    height:100vh;
+
+
+}
+div h1{
+    font-size: 90px;
+    color:aquamarine;
+    align-items: center;
+    margin:auto;
+    
+    
+}
+div p{
+    font-size:50px;
+    color:azure;
+    margin:20px 40px;
+    padding:30px 70px;
+}
+
